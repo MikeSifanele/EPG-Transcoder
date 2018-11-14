@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPG Transcoder", "EPG Transcoder\EPG Transcoder.csproj", "{E6FC06C8-D687-4DE4-AA0E-FF8C61DB129E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{BCEE5E4C-A0A8-4FF1-B73B-C835723FA065}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EPG Transcoder Setup", "..\Publish\Beta 1.0.0.2\EPG Transcoder Setup\EPG Transcoder Setup.vdproj", "{6B071989-5383-4429-83C0-825AE09C5BD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6FC06C8-D687-4DE4-AA0E-FF8C61DB129E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FC06C8-D687-4DE4-AA0E-FF8C61DB129E}.Debug|x64.ActiveCfg = Debug|x64
+		{E6FC06C8-D687-4DE4-AA0E-FF8C61DB129E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FC06C8-D687-4DE4-AA0E-FF8C61DB129E}.Release|x64.ActiveCfg = Release|x64
+		{BCEE5E4C-A0A8-4FF1-B73B-C835723FA065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEE5E4C-A0A8-4FF1-B73B-C835723FA065}.Debug|x64.ActiveCfg = Debug|x64
+		{BCEE5E4C-A0A8-4FF1-B73B-C835723FA065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEE5E4C-A0A8-4FF1-B73B-C835723FA065}.Release|x64.ActiveCfg = Release|x64
+		{6B071989-5383-4429-83C0-825AE09C5BD4}.Debug|Any CPU.ActiveCfg = Debug
+		{6B071989-5383-4429-83C0-825AE09C5BD4}.Debug|x64.ActiveCfg = Debug
+		{6B071989-5383-4429-83C0-825AE09C5BD4}.Release|Any CPU.ActiveCfg = Release
+		{6B071989-5383-4429-83C0-825AE09C5BD4}.Release|x64.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A18D91FE-CBDB-402D-B17D-B278A6929EA7}
+	EndGlobalSection
+EndGlobal
